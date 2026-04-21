@@ -8,8 +8,8 @@ from telegram.ext import (
 )
 
 # ─── SOZLAMALAR ────────────────────────────────────────────────
-TOKEN    = os.getenv("8439503971:AAFRBbRG5_jWgAi3ckr2YE6IW9o-HRNn8cg"))
-ADMIN_ID = int(os.getenv("8022896351")                  
+TOKEN    = os.getenv("TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))                  
 PODCASTS_FILE = "podcasts.json"
 
 logging.basicConfig(level=logging.INFO)
