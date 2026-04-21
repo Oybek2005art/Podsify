@@ -8,9 +8,8 @@ from telegram.ext import (
 )
 
 # ─── SOZLAMALAR ────────────────────────────────────────────────
-TOKEN    = "SIZNING_BOT_TOKENINGIZ"   # @BotFather dan oling
-ADMIN_ID = 123456789                  # @userinfobot dan oling
-
+TOKEN    = os.getenv("8439503971:AAFRBbRG5_jWgAi3ckr2YE6IW9o-HRNn8cg"))
+ADMIN_ID = int(os.getenv("8022896351")                  
 PODCASTS_FILE = "podcasts.json"
 
 logging.basicConfig(level=logging.INFO)
